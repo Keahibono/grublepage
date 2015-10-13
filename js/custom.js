@@ -196,7 +196,7 @@ $("#subscribe").submit(function (e) {
     if (isValidEmail(email)) {
         $.ajax({
             type: "POST",
-            url: "subscribe/subscribe.php",
+            url: "http://space.us11.list-manage1.com/subscribe/post-json?u=737415b69f13e8ee6110e71a3&id=fd11cb2f13&c=?",
             data: dataString,
             success: function () {
                 $('.subscription-success').fadeIn(1000);

@@ -916,14 +916,18 @@
 					     MAILCHIMP FORM STARTS
 					     ===================== -->
 
-					<form class="subscription-form mailchimp form-inline wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s" role="form" action="http://space.us11.list-manage.com/subscribe/post" method="POST">
+					<form action="http://space.us11.list-manage.com/subscribe/post" method="POST" class="subscription-form mailchimp form-inline wow fadeInRight animated">
+
+          <input type="hidden" name="id" value="fd11cb2f13" placeholder="Your Email">
+
+          <!-- <form class="subscription-form mailchimp form-inline wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s" role="form" action="http://space.us11.list-manage.com/subscribe/post" method="POST"> -->
 
 						<!-- SUBSCRIPTION SUCCESSFUL OR ERROR MESSAGES -->
 						<h4 class="subscription-success"></h4>
 						<h4 class="subscription-error"></h4>
 
 						<!-- EMAIL INPUT BOX -->
-						<input type="hidden" name="id" value="fd11cb2f13" id="subscriber-email" placeholder="Your Email" class="form-control input-box">
+						<!-- <input type="hidden" name="id" value="fd11cb2f13" id="subscriber-email" placeholder="Your Email" class="form-control input-box"> -->
 
 						<!-- SUBSCRIBE BUTTON -->
 						<button type="submit" id="subscribe-button" class="btn btn-default standard-button">Sign Up</button>
