@@ -22,7 +22,7 @@ $(".video-container").fitVids();
 
 $('.mailchimp').ajaxChimp({
     callback: mailchimpCallback,
-    url: "http://space.us11.list-manage1.com/subscribe?u=737415b69f13e8ee6110e71a3&id=fd11cb2f13" //Replace this with your own mailchimp post URL. Don't remove the "". Just paste the url inside "".
+    url: "http://space.us11.list-manage1.com/subscribe/post" //Replace this with your own mailchimp post URL. Don't remove the "". Just paste the url inside "".
 });
 
 function mailchimpCallback(resp) {
