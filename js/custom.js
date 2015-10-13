@@ -1,5 +1,5 @@
 /* =================================
-   LOADER                     
+   LOADER
 =================================== */
 // makes sure the whole site is loaded
 jQuery(window).load(function() {
@@ -22,17 +22,17 @@ $(".video-container").fitVids();
 
 $('.mailchimp').ajaxChimp({
     callback: mailchimpCallback,
-    url: "http://webdesign7.us6.list-manage.com/subscribe/post?u=9445a2e155b82208d73433060&amp;id=16dc80e353" //Replace this with your own mailchimp post URL. Don't remove the "". Just paste the url inside "".  
+    url: "http://space.us11.list-manage1.com/subscribe?u=737415b69f13e8ee6110e71a3&id=fd11cb2f13" //Replace this with your own mailchimp post URL. Don't remove the "". Just paste the url inside "".
 });
 
 function mailchimpCallback(resp) {
      if (resp.result === 'success') {
         $('.subscription-success').html('<i class="icon_check_alt2"></i><br/>' + resp.msg).fadeIn(1000);
         $('.subscription-error').fadeOut(500);
-        
+
     } else if(resp.result === 'error') {
         $('.subscription-error').html('<i class="icon_close_alt2"></i><br/>' + resp.msg).fadeIn(1000);
-    }  
+    }
 }
 
 
@@ -46,7 +46,7 @@ $(document).ready(function() {
     filter: ':not(.external)',
     changeHash: true
   });
-  
+
 });
 
 
@@ -104,8 +104,8 @@ jQuery(function( $ ){
 =================================== */
 function alturaMaxima() {
   var altura = $(window).height();
-  $(".full-screen").css('min-height',altura); 
-  
+  $(".full-screen").css('min-height',altura);
+
 }
 
 $(document).ready(function() {
@@ -263,8 +263,8 @@ $('.expand-form').simpleexpand({
 /* =================================
 ===  STELLAR                    ====
 =================================== */
-$(window).stellar({ 
-horizontalScrolling: false 
+$(window).stellar({
+horizontalScrolling: false
 });
 
 
