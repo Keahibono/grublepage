@@ -808,3 +808,9 @@ footer .copyright {
     padding-top: 10px;
     margin-bottom: 50px;
 }
+
+.modal-backdrop {
+    background-color: red;
+
+
+}
