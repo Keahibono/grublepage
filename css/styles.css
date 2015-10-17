@@ -274,14 +274,18 @@ h5 {
 -----------------------------------------*/
 
 header {
-    background: url(../images/pug.svg) no-repeat center top fixed;
-    -webkit-background-size: cover;
-            background-size: cover;
-            max-height: 620px;
+    background-image: url('../images/logo_pug.png');
+    background-position: top;
+    background-color: #C02231;
+    /*-webkit-background-size: 100%;*/
+    background-size: 620px 620px;
+    background-repeat: no-repeat;
+    max-height: 620px;
 }
 
 header .color-overlay {
     min-height: 900px;
+    background: none;
 }
 
 header .full-screen {
@@ -290,7 +294,6 @@ header .full-screen {
 }
 
 /* TOP BAR WITH NAVIGATION */
-
 .sticky-navigation {
   min-height: 60px;
   background: #FFFFFF;
