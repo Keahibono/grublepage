@@ -17,7 +17,8 @@ html {
 
 body {
     background: #ffffff;
-    font-family: 'badaboom', 'Roboto', sans-serif;
+    /*font-family: 'badaboom', 'Roboto', sans-serif;*/
+    font-family: 'Lane', sans-serif;
     font-size: 16px;
     font-weight: 300;
     color: #313131;
@@ -56,7 +57,7 @@ a {
 }
 
 a:hover {
-    text-decoration: none;
+    color: blacknav;
 }
 
 .btn:focus,
@@ -139,7 +140,8 @@ li {
 
 h1,
 h2 {
-    font-family: 'Lane', sans-serif;
+    /*font-family: 'Lane', sans-serif;*/
+    font-family: 'badaboom', 'Roboto', sans-serif;
     font-weight: normal;
 }
 
@@ -184,7 +186,7 @@ h5 {
     min-width: 150px;
     border: none;
     padding: 16px 25px 16px 25px;
-    margin: 5px;
+    margin: 0px;
     -webkit-transition: all ease 0.25s;
             transition: all ease 0.25s;
 }
@@ -290,13 +292,8 @@ header {
     width: 500px;
     height: 100%;
 }
-.grumble-bubble-logo {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 80%;
-    margin-top: 15px;
-}
+
+
 header .color-overlay {
     min-height: 900px;
     background: none;
@@ -346,7 +343,7 @@ header .full-screen {
 }
 
 .sticky-navigation .main-navigation li a:hover {
-    color: #000000;
+    color: #000;
 }
 
 .navbar-inverse .navbar-toggle {
@@ -367,7 +364,7 @@ header .only-logo .navbar .navbar-header {
 
 header .intro-section {
     margin: auto;
-    padding-top: 15%;
+    padding-top: 40%;
 }
 
 header .intro-section .intro {
@@ -714,7 +711,7 @@ object {
 
 .download .color-overlay {
     padding-top: 20px;
-    padding-bottom: 0px;
+    margin-bottom: 20px;
 }
 
 .download .download-container {
