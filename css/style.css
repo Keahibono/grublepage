@@ -378,7 +378,7 @@ dltext{
 		width: 84%;
 	}
 	.downloadbtn {
-		font-size: 0.9em;
+		font-size: 1em;
 	}
 	.header-left span {
 		width: 430px;
@@ -409,7 +409,7 @@ dltext{
 		width: 84%;
 	}
 	.downloadbtn {
-		font-size: 0.9em;
+		font-size: 2em;
 	}
 	.header-left {
 		padding-top: 0%;
@@ -431,7 +431,7 @@ dltext{
 	.divice-fea-left-grid p {
 		line-height: 1.5em;
 	}
-	.get-download {
+	.get-download p{
 		margin: 1em 0;
 	}
 	.header-left span {
@@ -450,6 +450,7 @@ dltext{
 		margin:0;
 	}
 }
+
 @media only screen and (max-width:1024px) and (min-width:768px) {
 	.wrap{
 		width: 85%;
@@ -474,7 +475,7 @@ dltext{
 		font-size: 1.5em;
 	}
 	.downloadbtn {
-		font-size: 0.9em;
+		font-size: 2em;
 	}
 	.header-left {
 		padding-top: 0%;
@@ -496,7 +497,7 @@ dltext{
 	.divice-fea-left-grid p {
 		line-height: 1.5em;
 	}
-	.get-download {
+	.get-download p{
 		margin: 1em 0;
 	}
 	.divice-fea-left {
@@ -546,7 +547,7 @@ dltext{
 		width: 60%;
 	}
 	.downloadbtn {
-		font-size: 0.9em;
+		font-size: 2em;
 	}
 	.header-left {
 		padding-top: 0%;
@@ -573,7 +574,7 @@ dltext{
 	.divice-fea-left-grid p {
 		line-height: 1.5em;
 	}
-	.get-download {
+	.get-download p{
 		margin: 1em 0;
 	}
 	.divice-fea-left {
@@ -642,7 +643,7 @@ dltext{
 		margin: 0.5em auto 0.6em auto;
 	}
 	.downloadbtn {
-		font-size:0.875em;
+		font-size:2em;
 		padding: 0.4em 1em;
 	}
 	.header-left {
@@ -675,7 +676,7 @@ dltext{
 	.divice-fea-left-grid p {
 		line-height: 1.5em;
 	}
-	.get-download {
+	.get-download p{
 		margin: 1em 0;
 	}
 	.divice-fea-left {
@@ -726,8 +727,11 @@ dltext{
 		font-size: 1.2em;
 		margin: 0.5em auto 0.6em auto;
 	}
+	.bigbtn{
+		visibility: hidden;
+	}
 	.downloadbtn {
-		font-size:0.875em;
+		font-size:2em;
 		padding: 0.4em 1em;
 	}
 	.header-left {
@@ -743,7 +747,7 @@ dltext{
 		background-size: 100% 100%;
 	}
 	.header{
-		background: url(../images/minigrumblefb.png) no-repeat; 
+		background: url(../images/smallgrumble.png) no-repeat; 
 		background-position: center center;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -767,7 +771,7 @@ dltext{
 		line-height: 1.5em;
 		font-size: 0.875em;
 	}
-	.get-download {
+	.get-download p{
 		margin: 0em 0;
 	}
 	.divice-fea-left {
@@ -785,18 +789,11 @@ dltext{
 	.logo{
 		display:none;
 	}
-	.header-right span{
-		width:100px;
-		height:201px;
-		display:block;
-		/*	background:url(../images/phone3.png) no-repeat; */
-		margin: 0 auto;
-	}
 	.bigbtn {
 		padding: 0.6em 1.2em;
 		font-size: 1em;
 	}
-	.get-download p {
+	.get-download p{
 		font-size: 1.2em;
 	}
 	.divice-fea-left-grid h3 {
@@ -819,8 +816,11 @@ dltext{
 	.header-right {
 		width:100%;
 	}
+	.bigbtn{
+		visibility: hidden;
+	}
 	.header{
-		background: url(../images/minigrumblefb.png) no-repeat; 
+		background: url(../images/smallgrumble.png) no-repeat; 
 		background-position: center center;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -839,7 +839,7 @@ dltext{
 		margin: 0.5em auto 0.6em auto;
 	}
 	.downloadbtn {
-		font-size:0.875em;
+		font-size:2em;
 		padding: 0.4em 1em;
 	}
 	.header-left {
@@ -865,7 +865,7 @@ dltext{
 		line-height: 1.5em;
 		font-size: 0.875em;
 	}
-	.get-download {
+	.get-download p{
 		margin: 0em 0;
 	}
 	.divice-fea-left {
@@ -882,21 +882,6 @@ dltext{
 	/*---*/
 	.logo{
 		display:none;
-	}
-	.header-right span{
-		width:100px;
-		height:201px;
-		display:block;
-		/*background:url(../images/phone3.png) no-repeat; */
-		margin: 0 auto;
-	}
-	.divice-fea-left label{
-		/*	background: url(../images/phone3.png) no-repeat; */
-		height:229px;
-		width:150px;
-		display: block;
-		margin: 0 auto;
-		margin-bottom: 1.5em;
 	}
 	.divice-fea {
 		margin-top: 1em;
