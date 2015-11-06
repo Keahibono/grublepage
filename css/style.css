@@ -40,7 +40,7 @@ body{
 }
 /*----start-header----*/
 .header{
-	background:url(../images/newban.png) no-repeat;
+	background:url(../images/catban.png) no-repeat;
 	background-position: center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -165,7 +165,7 @@ subtitle{
 	margin-top: 1%;
 }
 .divice-fea-right span{
-	background: url(../images/catphone.png) no-repeat;
+	background: url(../images/sfeed.png) no-repeat;
 	height: 511px;
 	width: 338px;
 	display: inline-block;
@@ -747,7 +747,7 @@ dltext{
 		background-size: 100% 100%;
 	}
 	.header{
-		background: url(../images/smallgrumble.png) no-repeat; 
+		background: url(../images/resplogo.png) no-repeat; 
 		background-position: center center;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -820,7 +820,7 @@ dltext{
 		visibility: hidden;
 	}
 	.header{
-		background: url(../images/smallgrumble.png) no-repeat; 
+		background: url(../images/resplogo.png) no-repeat; 
 		background-position: center center;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
