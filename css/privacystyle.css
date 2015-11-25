@@ -1,0 +1,21 @@
+/**
+ * Base
+ */
+ @font-face {
+    font-family: badaboom;
+    src: url(../fonts/badaboom.ttf);
+}
+body {
+    margin: 3;
+    padding: 5;
+    background-color: #FFFAFA;
+    font-family: arial;
+    line-height: 1.5;
+    color: #333;
+}
+#title{
+    text-align: center;
+}
+h4{
+    font-size: 1.2em;
+}
