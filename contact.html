@@ -12,19 +12,20 @@
 			<h1>Contact Us</h1>
 		</div>
 		<div id="paragraphs">
-			<p>Feel free to contact us! Fill out the contact form below and your message will be sent to info.grumble.space</p>
+			
 		</div>
 		<div id="paragraphs">
-			<form action="cnguyen7@hawaii.edu" method="get" enctype="text/plain">
 				<ul class="form-style-1">
-					<p>Name: <input type="text" name="name" /><span class="required"></span></p>
-					<p>Email: <input type="text" name="email" /><span class="required"></span></p>
-					<p>Comments:<br />
-						<textarea cols="40" rows="5" name="comments"></textarea></p>
-						<p><input type="submit" name="submit" value="Send" />
-							<input type="reset" name="reset" value="Clear Form" /></p>
-						</ul>
-					</form>
+					Fill out this contact form or email us at info.grumble.space
+					<form action="mailto:cnguyen7@hawaii.edu" enctype="text/plain" method="post">
+						<p>Name: <input name="Name" type="text" id="Name" size="40"></p>
+						<p>Email: <input name="E-mail" type="text" id="E-mail" size="40"></p>
+						<p>Comments:</p>
+						<p><textarea name="Comment" cols="55" rows="5"
+							id="Comment"></textarea></p>
+							<p><input type="submit" name="Submit" value="Submit"></p>
+						</form>
+					</ul>
 				</div>
 				<div class="footer-left">
 					<p>&#169; 2015 <span>Grumble App, Inc.</span> All Rights Reserved...</p>
